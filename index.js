@@ -1,7 +1,5 @@
 const fs = require("fs");
 
-const ____________sss = {};
-
 const createProxy = (rootObj, dbFile, path = []) => {
   const currentObj = path.reduce(
     (ahead, current, cursor) => ahead[current],
