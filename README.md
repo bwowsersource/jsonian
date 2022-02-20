@@ -15,7 +15,7 @@ yarn add jsonian
 ```js
 const jsonian = require('jsonian');
 
-const $table = jsonian('Students'); // file must already exist
+const $table = jsonian('./testTable.json'); // file must already exist
 ```
 `$table` is proxy to a root object. You can use it to get or set values as usual.
 Setting `functions` in jsonian objects can cause errors during serialization. Don't do that.
